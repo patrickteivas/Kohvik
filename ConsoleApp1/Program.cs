@@ -10,6 +10,9 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            Console.Write("Tere! ");
+            Console.WriteLine("Mida te soovite osta?\n1. Kohv\n2. Toit");
+            var valik = Console.ReadLine();
         }
     }
 }
